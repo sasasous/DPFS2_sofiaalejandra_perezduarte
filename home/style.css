@@ -1,0 +1,155 @@
+body {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    background-color: #F8F6E7;
+}
+
+li {
+    display: inline-block;
+    left: auto;
+}
+
+#icon {
+    width: 100px;
+    border-radius: 150px;
+    display: inline-block;
+    left: auto;
+}
+#usuario {
+    width: 100px;
+}
+
+#flecha {
+    width: 100px;
+}
+
+#enotroplano {
+    width: 860px;
+    height: 620px;
+    display:block;
+    margin:auto;
+}
+
+.ilustraciones {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+button {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FAD899;
+    font-size: 40px;
+    
+}
+
+#ver {
+    color: black;
+    text-decoration-line: none;
+}
+
+#title2 {
+    text-align: center;
+    color: black;
+}  
+
+.bloque {
+    width: 500px;
+    height: 750px;
+    background-color: #F8F6E7;
+    display:block;
+    margin:auto;
+}
+
+.dibujo {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+
+.nombre {
+    font-size: 36px;
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+
+.tamaño {
+    font-size: 32px;
+    position: relative;
+    left: 75px;
+}
+
+#img-comisiones {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display:block;
+    margin:auto;
+    position: relative;
+    top: 250px;
+}
+
+#título-comisiones {
+    position: relative;
+    top: 150px;
+}
+
+#pedido {
+    color: black;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+label {
+    font-size: 40px;
+    position:relative;
+    left: 500px;
+}
+
+.input {
+    height: 100px;
+    width: 800px;
+    border-width: 5px;
+    background-color: #F8F6E7;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position:relative;
+    left: 500px;
+}
+
+#ingresar {
+    position: relative;
+    display:block;
+    margin:auto;
+    top: 100px;
+    font-size: 40px;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FAD899;
+}

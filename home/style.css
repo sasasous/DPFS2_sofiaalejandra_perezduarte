@@ -4,31 +4,27 @@ body {
     font-style: normal;
 }
 
-
+nav {
+    background-color: #F8F6E7;
+    width: 100%;
+    height: 50px;
+}
 
 .nav-bar {
-    position: fixed;
-    width: 100%;
-    background-color: #F8F6E7;
+    list-style-type: none;
+    
 }
 
-li {
+.nav-img-icon {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 90%;
+}
+
+.nav-img {
+    width: 50px;
     display: inline-block;
-    left: auto;
-}
-
-#icon {
-    width: 100px;
-    border-radius: 150px;
-    display: inline-block;
-    left: auto;
-}
-#usuario {
-    width: 100px;
-}
-
-#flecha {
-    width: 100px;
+    padding-right: 10px;
 }
 
 #enotroplano {
@@ -42,6 +38,8 @@ li {
     font-family: "Jockey One", serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
+    color: black;
 }
 
 h1 {
@@ -67,11 +65,6 @@ button {
     color: black;
     text-decoration-line: none;
 }
-
-#title2 {
-    text-align: center;
-    color: black;
-}  
 
 .bloque {
     width: 500px;
@@ -102,6 +95,10 @@ button {
     left: 75px;
 }
 
+.comisiones {
+    text-align: center;
+}
+
 #img-comisiones {
     width: 300px;
     height: 300px;
@@ -114,7 +111,7 @@ button {
 
 #título-comisiones {
     position: relative;
-    top: 150px;
+    margin-top: 250px;
 }
 
 #pedido {
@@ -146,10 +143,29 @@ label {
     position: relative;
     display:block;
     margin:auto;
-    top: 100px;
+    top: 10px;
     font-size: 40px;
     font-family: "Jockey One", serif;
     font-weight: 400;
     font-style: normal;
     background-color: #FAD899;
+}
+
+.nav-footer {
+    background-color: #F8F6E7;
+    height: 400px;
+    
+}
+
+.nav-head {
+    text-decoration-line: none;
+    color: black;
+    display: inline-block;
+    font-size: 36px;
+    padding-right: 300px;
+}
+
+.redes {
+    color: black;
+    text-decoration-line: none;
 }
